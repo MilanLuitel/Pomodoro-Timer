@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style2.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins &display=swap"
+      rel="stylesheet"
+    />
+    <title>Pomodoro Timer</title>
+  </head>
+  <body>
+    <!-- div for position of blob and hourglass -->
+    <div class="hourglass-c">
+      <div class="blob">
+        <svg
+          id="visual"
+          class="blob-1"
+          viewBox="0 0 900 900"
+          width="400"
+          height="400"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          version="1.1"
+        >
+          <g transform="translate(472.9984221627615 436.1394877554644)">
+            <path
+              id="blob1"
+              d="M191.2 -273.3C259.1 -253.8 333.3 -220 339.6 -166.7C345.9 -113.4 284.3 -40.7 266.3 33.6C248.2 107.8 273.8 183.6 253.5 235.6C233.2 287.7 167.2 316.1 99.9 332.2C32.6 348.3 -36 352.1 -92.8 329.3C-149.5 306.5 -194.6 257.1 -239.5 206.7C-284.4 156.3 -329.3 105.1 -357.6 39.3C-385.9 -26.4 -397.6 -106.7 -371.5 -172C-345.3 -237.4 -281.3 -287.8 -213.1 -307.1C-144.9 -326.5 -72.4 -314.7 -5.4 -306.3C61.6 -297.9 123.3 -292.8 191.2 -273.3"
+              fill="#0a4c8e"
+            ></path>
+          </g>
+          <g transform="translate(437.81164712263774 495.3837798451434)" style="visibility: hidden;">
+            <path
+              id="blob2"
+              d="M218.7 -340.5C286.8 -296.6 347.6 -241.6 361.9 -175.5C376.2 -109.4 344 -32.3 312.6 30.6C281.2 93.4 250.5 142 209.9 172.9C169.2 203.8 118.4 217 65.4 240.9C12.4 264.8 -42.8 299.4 -109.6 309.1C-176.5 318.9 -254.9 303.8 -298.6 256.8C-342.3 209.8 -351.3 130.8 -329.9 67.1C-308.4 3.4 -256.5 -45 -220.6 -91.3C-184.7 -137.5 -164.8 -181.5 -130.7 -240.9C-96.6 -300.3 -48.3 -375.2 13.5 -396.2C75.3 -417.2 150.7 -384.4 218.7 -340.5"
+              fill="#0a4c8e"
+            ></path>
+          </g>
+        </svg>
+        <img class="hourglass" src="hourglass.png" />
+      </div>
+      <!-- main container -->
+      <div class="container">
+        <h1>Pomodoro Timer</h1>
+        <p>Welcome to Pomodoro Timer</p>
+        <img src="design.png" />
+        <a href="main.html"><button class="start-btn">START</button></a>
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/kute.js@2.2.4/dist/kute.min.js"></script>
+    <script src="main2.js"></script>
+  </body>
+</html>

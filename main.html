@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins &display=swap"
+      rel="stylesheet"/>
+    <title>Pomodoro Timer</title>
+</head>
+<body>
+    <h1>Pomodoro Timer</h1>
+    <div id="container">
+        <div class="section-container">
+        <p id="work" class="label">WORK</p><p id="break" class="label">SESSION</p><p id="cycles" class="label">BREAK</p>
+    </div>
+    <div class="time-btn-container">
+    <div class="cbox">
+        <button id="add-btn-wm" class="sbtn">
+            <i class="fa-solid fa-caret-up"></i>
+        </button>
+        <div id="work-timer" class="timer">
+            <p id="w_minutes">25</p><p class="semicolon">:</p><p id="w_seconds">00</p>
+        </div>
+        <button id="sub-btn-wm" class="sbtn">
+            <i class="fa-solid fa-caret-down"></i>
+        </button>
+    </div>
+        <div class="counter-timer">
+        <button id="add-btn-cn" class="sbtn cbtn">
+            <i class="fa-solid fa-caret-up"></i>
+        </button>
+        <p id="counter" class="timer">4</p>
+        <button id="sub-btn-cn" class="sbtn cbtn">
+            <i class="fa-solid fa-caret-down"></i>
+        </button>
+    </div>
+    <div class="cbox">
+        <button id="add-btn-bm" class="sbtn">
+            <i class="fa-solid fa-caret-up"></i>
+         </button>
+        <div id="break-timer" class="timer">
+            <p id="b_minutes">5</p><p class="semicolon">:</p><p id="b_seconds">00</p>
+        </div>
+        <button id="sub-btn-bm" class="sbtn">
+            <i class="fa-solid fa-caret-down"></i>
+        </button>
+    </div>
+    </div>
+        <div class="btn-container">
+        <button id="start" class="btn show">START</button>
+        <button id="stop" class="btn hide">PAUSE</button>
+        <button id="reset" class="hide">
+            <i class="fa-solid fa-rotate-right"></i></button>
+    </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
