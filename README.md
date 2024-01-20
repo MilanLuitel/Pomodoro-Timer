@@ -1,1 +1,3 @@
 # Pomodoro-Timer
+
+I  have  made this timer using  HTML, CSS, and JavaScript, with additional enhancements like GSAP for animations, Haikei for SVG creation, and Kute.js for morph animations. Upon clicking 'Start,' users are directed to the main page, where they can customize working time, break time, and the number of sessions.  But the project includes restrictions, preventing users from setting work time less than 25 minutes, break time less than 5 minutes, and a minimum of 1 session.Upon initiating the timer, the work timer starts counting down. Subsequently, the break timer begins, and as each session completes, the session count decreases. Upon completion of the last session, a pop-up appears, celebrating the completion of the work.
